@@ -1,0 +1,340 @@
+.main {
+    width: 95%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.gioithieu-tour {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.gioithieu-tour .img {
+    flex: 1 1 45%;
+    background-color: #3e3e3e;
+}
+
+.gioithieu-tour .img img {
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .gioithieu-tour .img {
+        flex: 1 1 100%;
+    }
+
+    .gioithieu-tour .content {
+        flex: 1 1 100%;
+    }
+
+    .main-tour strong {
+        font-size: 15px;
+    }
+}
+
+.gioithieu-tour .content {
+    flex: 1 1 50%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px 0px #ccc;
+}
+
+.gioithieu-tour .content ul {
+    list-style: none;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.gioithieu-tour .content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.main-tour {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.main-tour strong {
+    line-height: 2;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    display: block;
+    font-size: 20px;
+    color: #59599f;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.col-12 {
+    background: #f0f0f0;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 15px;
+    flex: 1 1 100%;
+}
+
+.main-col-7 {
+    flex: 1 1 70%;
+    background: #daefe0;
+    padding: 20px;
+    position: relative;
+}
+
+.main-col-3 {
+    flex: 1 1 300px;
+    border: 1px solid black;
+    width: 29%;
+    padding: 10px;
+}
+
+.gachchan {
+    padding: 1.5px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: #454545;
+}
+
+.banggia {
+    background: #fff5f5;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px dashed #f00;
+}
+
+.banggia p {
+    margin: 5px 0px;
+    font-size: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.banggia p:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.lichtrinh {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.lichtrinh .lich-col-6 {
+    flex: 1 1 49%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.lichtrinh .lich-col-6 i {
+    font-size: 25px;
+    color: #ffaa3a;
+    margin-right: 10px;
+    margin-top: 3px;
+    width: 25px;
+}
+
+.lichtrinh .lich-col-6 p {
+    margin-bottom: 0px;
+}
+
+.lichtrinh .lich-col-6 span {
+    margin-top: 2px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.tour-khac {
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.tour-6 {
+    flex: 1 1 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 0px #3e3e3e;
+}
+
+.main-col-7 h3 {
+    padding-top: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.main-col-3 {
+    padding-top: 20px;
+}
+
+.dathang {
+    padding-bottom: 30px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dathang .d-col-7 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    flex: 1 1 70%;
+    gap: 20px;
+}
+
+.h2-1 {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #0043a9;
+    text-transform: uppercase;
+    font-family: 'UTMHelvetIns';
+    background-position-y: 6px;
+    display: inline-block;
+}
+
+.dathang .d-col-7 .h2 {
+    margin-top: 10px;
+    line-height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    background: #005AAA;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.dathang .d-col-5 .h2 {
+    margin-top: 20px;
+    line-height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    background: #005AAA;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.dathang .d-col-7 .div-2 {
+    flex: 1 1 48%;
+}
+
+.dathang .d-col-5 {
+    flex: 1 1 28%;
+}
+
+.gachchan2 {
+    background: #0043a9;
+    width: 70px;
+    height: 2px;
+}
+
+.giviv {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #005aab;
+}
+
+.dathang input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"] {
+    margin: 10px 0;
+    padding: 7px;
+    width: 400px;
+    display: block;
+}
+.tour-khac a{
+    color: #000;
+    text-decoration: none;
+}
+form label {
+    margin: 3px 0;
+}
+
+.guitour button {
+    font-weight: 400;
+    color: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+    background-color: #005aab;
+    border: 1px solid white;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.giatour table {
+    border-spacing: 0;
+    width: 100%;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.giatour table tr {
+    width: auto;
+    float: left;
+    font-size: 13px;
+    padding: 0 11px;
+    line-height: 34px;
+    border-right: 1px solid #ccc;
+    width: 100%;
+    float: none;
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+}
+
+.giatour table tr td {
+    padding: 5px;
+}
+
+.content-ghichu {
+    background-color: rgb(221, 255, 187);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content-ghichu p {
+    overflow: hidden;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #3b3b3b;
+    border-bottom: 1px solid #717171;
+
+}
+
+input[type="radio"] {
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}

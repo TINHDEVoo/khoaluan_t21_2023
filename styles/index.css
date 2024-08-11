@@ -1,0 +1,131 @@
+main {
+    width: 100%;
+}
+
+.diemden-hangdau {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.diemden-hangdau h2 {
+    text-transform: capitalize;
+    margin-bottom: 0;
+    color: #3b444f;
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.diemden-hangdau h2::after {
+    display: block;
+    width: 5.5rem;
+    height: 0.125rem;
+    background-color: #297cbb;
+    content: " ";
+    margin: 1.5rem auto 0;
+}
+
+.slide-img {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #eaeef3;
+}
+
+.slide-img .image {
+    width: 85%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.diemden-hangdau .cacdiemden {
+    padding-top: 10px;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.diemden-hangdau .cacdiemden .c-col-4 {
+    flex: 1 1 30%;
+    position: relative;
+}
+
+.diemden-hangdau .cacdiemden .c-col-4 img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.diemden-hangdau .cacdiemden .c-col-4 p {
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.diemden-hangdau .cacdiemden .c-col-2 {
+    flex: 1 1 13%;
+    position: relative;
+}
+
+.diemden-hangdau .cacdiemden .c-col-2 p {
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.diemden-hangdau .cacdiemden .c-col-2 img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .diemden-hangdau .cacdiemden .c-col-4 {
+        flex: 1 1 49%;
+    }
+
+    .diemden-hangdau .cacdiemden .c-col-4 img {
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    .diemden-hangdau .cacdiemden .c-col-2 {
+        flex: 1 1 49%;
+    }
+
+    .diemden-hangdau .cacdiemden .c-col-2 img {
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    marquee {
+        height: auto;
+    }
+
+    .image {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    marquee {
+        display: none;
+    }
+}
